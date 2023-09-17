@@ -30,18 +30,23 @@
     <main>
         <section class="sheet padding-10mm">
             <h2>YUANHANG WANG</h2>
-            <table>
-                <td><a href="https://congress.gov/"><img src="images/Yuanhang_Pro.jpg"></a></td>
-                <td style="padding:30px;"><p style="color: #0765D5; font-size: 30px"> <strong>Wellcome!</strong> </p>
-                    <p style="font-family: Georgia, serif; font-size:18px">I am a PH.D. Candidate in Agricultural Economics at Texas A&M University.</p>
-                    <br />
+            <div style="display: flex; align-items: flex-start;">
+                <div style="margin-right: 16px;">
+                    <a href="https://congress.gov/"><img src="images/Yuanhang_Pro.jpg" style="height: 390px;"></a> <!--这个390是图片的高度，改了这个就把下面的390也对应改一下-->
+                </div>
+                <div style="display: flex; flex-direction: column; justify-content: space-between; height: 390px;">
+                    <!--div--> <!-- 这里如果将下面2个用div包起来，则2个显示在一起-->
+                        <p style="color: #0765D5; font-size: 30px;"> <strong>Wellcome!</strong> </p>
+                        <p style="font-family: Georgia, serif; font-size:18px">I am a PH.D. Candidate in Agricultural Economics at Texas A&M University.</p>
+                    <!--/div-->
                     <p style="font-family: Georgia, serif; font-size:18px">My research interests include development Economics, international development, climate change, and poverty.</p>
-                    <br />
-                    <p style="font-family: Georgia, serif; font-size:18px">Email Address: <a href = "mailto: yw494@tamu.edu">yw494@tamu.edu</a></p>
-                    <p style="font-family: Georgia, serif; font-size:18px">Phone: 979-402-6053</p>
-                    <p style="font-family: Georgia, serif; font-size:18px"><a href="YUANHANG_WANG_CV.pdf">Download my CV here.</a></p>
-                </td>
-            </table>
+                    <!--div--> <!-- 这里如果将下面3个用div包起来，则3个显示在一起-->
+                        <p style="font-family: Georgia, serif; font-size:18px">Email Address: <a href = "mailto: yw494@tamu.edu">yw494@tamu.edu</a></p>
+                        <p style="font-family: Georgia, serif; font-size:18px">Phone: 979-402-6053</p>
+                        <p style="font-family: Georgia, serif; font-size:18px"><a href="YUANHANG_WANG_CV.pdf">Download my CV here.</a></p>
+                    <!--/div-->
+                </div>
+            </div>
             <p><h2>Work in progress：</h2></p>
             <ul>
                 <li style="font-family: Georgia, serif"><span>"Weather shocks and migration among small-scale farmers in Uganda", with Kashi Dafle (Texas A&M University) and Barnabas Kiiza.</span></li>
